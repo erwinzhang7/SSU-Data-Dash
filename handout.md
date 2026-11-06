@@ -105,7 +105,8 @@ improve on it. A gradient-boosted model (`FeatureModel`) is ready to switch on i
 By **November 8, 11:59 pm EST**, through the form we will email and post on Discord: one PDF report
 (4 pages max) that links to:
 
-1. A video, 5 minutes max, on YouTube (unlisted is fine, private is not). Judges stop at 5:00.
+1. A video, 5 minutes max, on YouTube (unlisted is fine, private is not). Judges stop at 5:00. Format and what to
+   cover: see [The video](#the-video) below.
 2. A GitHub repository (public, or shared with the organisers) holding your code and two files,
    written by `python run.py predict`:
 
@@ -121,6 +122,21 @@ Use the report template in the starter (`report/report.tex`; it compiles on Over
 team member's full name on it. Report your walk-forward validation MdAPE for each track: we compare
 it with your hidden-test error. Late submissions are not reviewed.
 
+### The video
+
+Any format works: slides with a voice-over, a screen recording of your notebook or code, or you on camera.
+Slides are fine and are the most common choice. Please don't read your report aloud. The video is where you
+show you understand what you built, so talk it through in your own words.
+
+In five minutes, cover:
+
+1. **What you built:** your features and model, in plain words.
+2. **Why:** the choices that mattered, and what you tried that didn't help.
+3. **How you validated it:** your walk-forward split and your validation MdAPE for each track.
+4. **Where it fails:** which homes, prices or neighbourhoods it gets wrong, and why you think so.
+
+Judges stop at 5:00, so anything after that isn't seen.
+
 ## How you are judged
 
 The full rubric is in the starter repository. In short:
@@ -133,7 +149,7 @@ The full rubric is in the starter repository. In short:
 | Method and validation | 25 | Train on the past, test on the future. Nothing from after the sale or from the test set. |
 | Insight and error analysis | 20 | Where the model fails (price, type, neighbourhood) and why. Honest uncertainty. |
 | Honesty about performance | 10 | Your validation error should predict your hidden-test error. |
-| Communication | 10 | A clear five-minute story. |
+| Communication | 10 | A clear five-minute video on what you built and why. Slides with a voice-over are fine; don't just read your report. See [The video](#the-video). |
 | Reproducibility | 5 | We can rerun your code and get your predictions. |
 
 A smaller error that you cannot explain loses to a slightly larger one with a clean, honest method.

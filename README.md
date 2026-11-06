@@ -49,7 +49,8 @@ validation error with your hidden-test error.
 ## Submission
 
 One PDF report (template: `report/report.tex`, 4 pages max) that links to:
-1. your video on YouTube, 5 minutes max (unlisted is fine, not private);
+1. your video on YouTube, 5 minutes max (unlisted is fine, not private); format and what to cover: see
+   [The video](handout.md#the-video) in the handout;
 2. your GitHub repository (public, or shared with the organisers), holding your code and two files:
 
 ```
